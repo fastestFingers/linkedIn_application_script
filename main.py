@@ -92,7 +92,8 @@ if __name__ == "__main__":
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
     
     # Login to LinkedIn
-    linkedin_login(driver, "oluwatimilehinseriki@gmail.com", "GraceAndrew2004#")
+    # Make sure to put your own credentials
+    linkedin_login(driver, "", "")
     
     # Navigate to jobs page
     navigate_to_jobs_page(driver)
